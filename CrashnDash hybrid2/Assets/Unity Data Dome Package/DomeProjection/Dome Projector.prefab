@@ -45,10 +45,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f655a24fbb847599eddbc829a2b9b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  worldCameraPitch: -80
-  worldCameraRoll: 0
+  worldCameraPitch: -90
+  worldCameraRoll: 150
   FOV: 270
-  cubeMapType: 1024
+  cubeMapType: 2048
   antiAliasingType: 1
   backFadeIntensity: 0.1
   crescentFadeIntensity: 0.5
@@ -97,8 +97,8 @@ Camera:
   m_GameObject: {fileID: 149398}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0.047693912, b: 0.122641504, a: 0.019607844}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
