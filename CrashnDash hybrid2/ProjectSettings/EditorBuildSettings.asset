@@ -5,10 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Unity Data Dome Package/Demo.unity
     guid: 334ea79eec24448c4bee38936832a966
-  - enabled: 1
-    path: Assets/Scenes/Ronan.unity
-    guid: 9effd0e011f333c488cdaee3dd4ec929
   m_configObjects: {}
