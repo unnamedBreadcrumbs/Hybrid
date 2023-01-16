@@ -14,11 +14,11 @@ public class DomeController : MonoBehaviour
     // DEFAULTS AND LIMITS
     //----------------------------------------------------------------------------------------------------
 
-    public const float WorldCameraDefPitch = -80.0f;
+    public const float WorldCameraDefPitch = -90.0f;
     public const float WorldCameraMinPitch = -120.0f;
     public const float WorldCameraMaxPitch = +120.0f;
 
-    public const float WorldCameraDefRoll  =    0.0f;
+    public const float WorldCameraDefRoll  = 154f;
     public const float WorldCameraMinRoll  = -180.0f;
     public const float WorldCameraMaxRoll  = +180.0f;
 

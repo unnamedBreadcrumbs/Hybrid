@@ -25,25 +25,36 @@ public class NPC_AnimationKeyBinds : MonoBehaviour
     {
         if (Input.GetKeyDown("1"))
         {
-            AnimationCount = AnimationCount + 1;
+            AnimationCount = 1;
         }
 
         if (Input.GetKeyDown("2"))
         {
-            AnimationCount = AnimationCount - 1;
+            AnimationCount = 0;
         }
 
         if (Input.GetKeyDown("3"))
         {
-            MouthCount = MouthCount + 1;
+            MouthCount = 1;
         }
 
         if (Input.GetKeyDown("4"))
         {
-            MouthCount = MouthCount - 1;
+            MouthCount = 0;
         }
 
         Mouth.SetFloat("MouthCounter", MouthCount);
         NPC.SetFloat("AnimatorCounter", AnimationCount);
+    }
+    public void Move()
+    {
+        MouthCount = 1;
+        AnimationCount = 1;
+    }
+
+    public void Stop()
+    {
+        MouthCount = 0;
+        AnimationCount = 0;
     }
 }
